@@ -1,0 +1,15 @@
+.socialBtn{
+    border-radius: 50%;
+    border: 1px solid #570BFB;
+    margin: 0 7px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #570BFB;
+}
+.socialBtn:hover{
+    background-color: #570BFB;
+    color: white;
+}
