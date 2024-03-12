@@ -1,0 +1,12 @@
+.err{
+    color: rgba(255, 0, 0, 0.854);
+    margin: 2px 0;
+}
+.input-body{
+    border-bottom: 1px solid #570BFB;
+    background-color: #211336;
+    color: white;
+}
+.input-body:focus {
+    border: 2px solid #570BFB;
+}

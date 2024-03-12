@@ -2164,6 +2164,11 @@ react-fast-marquee@^1.6.4:
   resolved "https://registry.npmjs.org/react-fast-marquee/-/react-fast-marquee-1.6.4.tgz"
   integrity sha512-LAgvhRmHdqaUQ8R5jCUwzEGFUIjnCCt3T3W8X7j7wF6DWe0SATlpP0JX1V0pp2qX3DYUezmn1Iz5AtRFdL2EWQ==
 
+react-hook-form@^7.51.0:
+  version "7.51.0"
+  resolved "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.51.0.tgz"
+  integrity sha512-BggOy5j58RdhdMzzRUHGOYhSz1oeylFAv6jUSG86OvCIvlAvS7KvnRY7yoAf2pfEiPN7BesnR0xx73nEk3qIiw==
+
 react-icons@^5.0.1:
   version "5.0.1"
   resolved "https://registry.npmjs.org/react-icons/-/react-icons-5.0.1.tgz"
@@ -2194,7 +2199,7 @@ react-router@6.22.3:
   dependencies:
     "@remix-run/router" "1.15.3"
 
-react@*, react@^18.2.0, "react@>= 16.8.0 || 18.0.0", react@>=16.8:
+react@*, "react@^16.8.0 || ^17 || ^18", react@^18.2.0, "react@>= 16.8.0 || 18.0.0", react@>=16.8:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==

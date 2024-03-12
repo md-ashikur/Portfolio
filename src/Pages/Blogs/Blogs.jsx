@@ -2,7 +2,7 @@ import blog1 from "../../assets/images/blog1.jpg";
 import "./Blogs.css";
 const Blogs = () => {
   return (
-    <div className="my-20 p-20 bg-[#110818]">
+    <div className="my-20 p-20 bg-[#0F051D]">
       <div className="text-center ">
         <h2 className="text-5xl font-bold font-[sora] my-3 p-2 gradient-text">
           Recent Blogs
