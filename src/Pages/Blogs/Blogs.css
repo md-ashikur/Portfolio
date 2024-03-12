@@ -1,0 +1,9 @@
+.blog-content:hover img{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+
+    
+}
+.blog-content:hover .blog-text{
+    background: linear-gradient(to right, #570BFB, 70%, #763cf3);
+}

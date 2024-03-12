@@ -11,9 +11,9 @@ import { Autoplay } from 'swiper/modules';
 
 const Testimonials = () => {
     return (
-        <div className='h-64 '>
+        <div className='h-96 py-20'>
       <div className="text-center ">
-        <h2 className="text-5xl font-bold font-[sora] my-5 gradient-text">
+        <h2 className="text-5xl font-bold font-[sora] my-5 p-2 gradient-text">
         My Client&apos;s Stories
         </h2>
        

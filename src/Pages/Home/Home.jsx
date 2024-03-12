@@ -9,6 +9,7 @@ import Services from "../Services/Services";
 import Works from "../Works/Works";
 import Skills from "../Skills/Skills";
 import Testimonials from "../Testimonials/Testimonials";
+import Blogs from "../Blogs/Blogs";
 const Home = () => {
   return (
     <div className=" ">
@@ -77,7 +78,11 @@ const Home = () => {
      </section>
       <Works />
 
-      <Testimonials/>
+     <section >
+     <Testimonials/>
+     </section>
+
+      <Blogs/>
     </div>
   );
 };

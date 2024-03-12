@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <div className="h-screen p-20">
+    <div className=" p-20">
       <div className="text-center ">
         <h2 className="text-5xl font-bold font-[sora] my-5 gradient-text">My Quality Services</h2>
         <p>
