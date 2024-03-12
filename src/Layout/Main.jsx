@@ -7,6 +7,7 @@ const Main = () => {
         <div className="bgcolor">
             <Outlet/>
             <Footer/>
+
         </div>
     );
 };

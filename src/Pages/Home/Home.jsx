@@ -1,11 +1,18 @@
 import "./Home.css";
 import ashik from "../../assets/images/ashik.png";
-import { FaGithub, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import {  FaFacebookF } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
+import Services from "../Services/Services";
+import Works from "../Works/Works";
+import Skills from "../Skills/Skills";
+import Testimonials from "../Testimonials/Testimonials";
 const Home = () => {
   return (
-    <div className="h-screen   ">
+    <div className=" ">
+      {/* section- 1 start-=-=-=-=-=-=-=-=-=-=-=-=-= */}
       <section className="grid grid-cols-2 px-20">
         <div className="flex flex-col justify-center h-screen uppercase ">
           <h2 className="text-4xl font-bold ">
@@ -20,30 +27,32 @@ const Home = () => {
               Download Resume
             </button>
             <a href="https://github.com/md-ashikur">
-             
               <button className="socialBtn">
                 <FaGithub />
               </button>
             </a>
 
-           <a href="https://www.linkedin.com/in/md-ashikur-rahman/"> <button className="socialBtn">
-              <FaLinkedinIn />
-            </button></a>
+            <a href="https://www.linkedin.com/in/md-ashikur-rahman/">
+             
+              <button className="socialBtn">
+                <FaLinkedinIn />
+              </button>
+            </a>
 
-           <a href="https://leetcode.com/ashikur1/">
-           <button className="socialBtn">
-              <SiLeetcode />
-            </button>
-           </a>
-           <a href="https://twitter.com/mdashik_1">
-           <button className="socialBtn">
-              <FaXTwitter />
-            </button>
-           </a>
+            <a href="https://leetcode.com/ashikur1/">
+              <button className="socialBtn">
+                <SiLeetcode />
+              </button>
+            </a>
+            <a href="https://twitter.com/mdashik_1">
+              <button className="socialBtn">
+                <FaXTwitter />
+              </button>
+            </a>
             <a href="https://www.facebook.com/ashikur.rahman999">
-            <button className="socialBtn">
-              <FaFacebookF />
-            </button>
+              <button className="socialBtn">
+                <FaFacebookF />
+              </button>
             </a>
           </div>
         </div>
@@ -58,6 +67,17 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* section- 1 end-=-=-=-=-=-=-=-=-=-=-=-=-= */}
+
+      <section>
+        <Services />
+      </section>
+     <section className="my-20 bg-red-200">
+     <Skills/>
+     </section>
+      <Works />
+
+      <Testimonials/>
     </div>
   );
 };
