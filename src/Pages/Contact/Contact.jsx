@@ -16,11 +16,11 @@ const Contact = () => {
   }
 
   return (
-    <div className="grid grid-cols-2 px-20 font-[sora] content-center">
+    <div className="grid lg:grid-cols-2 lg:px-20 px-5 font-[sora] content-center">
       {/* contact form------- */}
    
-      <div className="bg-[#0F051D] h-auto w-full border border-primary p-10 mt-10 rounded-xl">
-        <h2 className="gradient-text  font-bold py-2 text-5xl">
+      <div className="bg-[#0F051D] h-auto w-full border border-primary lg:p-10 p-5 mt-10 rounded-xl">
+        <h2 className="gradient-text  font-bold py-2 lg:text-5xl text-2xl">
           Let’s work together!
         </h2>
         <p className="text-justify">
@@ -30,7 +30,7 @@ const Contact = () => {
         </p>
 
         <form onSubmit={handleSubmit(onSubmit)} className="my-5">
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid lg:grid-cols-2 gap-3">
             <div>
               <input placeholder="First name*" className="input-body outline-0 p-2 w-full h-10 "
                 {...register("firstName", { required: true })}
@@ -53,7 +53,7 @@ const Contact = () => {
           </div>
 
           {/* --------------- */}
-          <div className="grid grid-cols-2 gap-3 my-3">
+          <div className="grid lg:grid-cols-2 gap-3 my-3">
             <div>
             <input type="email" placeholder="Email*" className="input-body outline-0 p-2 w-full h-10 "
             {...register("mail", { required: "Email Address is required" })}
@@ -90,32 +90,32 @@ const Contact = () => {
 
       {/* contact info--------- */}
       <div className="flex items-center">
-      <div className="text-white p-10 ">
+      <div className="text-white lg:p-10 p-5">
         <div className="flex items-center gap-5 mb-5">
-          <img src={phone} alt="" className="h-20 w-20" />
+          <img src={phone} alt="" className="lg:h-20 h-16 lg:w-20 h-16" />
           <div>
             <p>Phone / WhatsApp</p>
             <a href="tel:+8801705433694">
-              <p className="text-xl hover:text-primary">(+880) 1705-433694</p>
+              <p className="lg:text-xl hover:text-primary">(+880) 1705-433694</p>
             </a>
           </div>
         </div>
 
         <div className="flex items-center gap-5 mb-5">
-          <img src={mail} alt="" className="h-20 w-20" />
+          <img src={mail} alt="" className="lg:h-20 h-16 lg:w-20 h-16" />
           <div>
             <p>Email</p>
             <a href="mailto:mdashik.contact@gmail.com">
-              <p className="text-xl hover:text-primary">mdashik.contact@gmail.com</p>
+              <p className="lg:text-xl hover:text-primary">mdashik.contact@gmail.com</p>
             </a>
           </div>
         </div>
 
         <div className="flex items-center gap-5 mb-5">
-          <img src={address} alt="" className="h-20 w-20" />
+          <img src={address} alt="" className="lg:h-20 h-16 lg:w-20 h-16" />
           <div>
             <p>Address</p>
-            <p className="text-xl hover:text-primary">
+            <p className="lg:text-xl hover:text-primary">
               Silimpur, Bogura Sadar, Bogura-5800, Bangladesh
             </p>
           </div>

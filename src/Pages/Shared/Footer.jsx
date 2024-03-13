@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="h-64  text-base flex justify-end flex-col">
-      <nav className="flex justify-center space-x-4 ">
+    <div className="h-64 text-base flex justify-end flex-col">
+      <nav className="flex justify-center flex-wrap space-x-4 ">
         <Link
           to="/"
           className="font-medium px-3 py-2  hover:text-[#7C49E4] hover:text-slate-900"

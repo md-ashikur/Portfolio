@@ -20,7 +20,7 @@ const Skills = () => {
         </h2>
       </div>
 
-      <Marquee autoFill pauseOnHover speed="80" className="h-64">
+      <Marquee autoFill pauseOnHover speed="80" className="my-10">
         <div className="s-logo ">
           <img src={html} alt="" />
           <p>HTML</p>

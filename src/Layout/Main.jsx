@@ -4,7 +4,7 @@ import '../index.css';
 
 const Main = () => {
     return (
-        <div className="bgcolor">
+        <div className="bgcolor ">
             <Outlet/>
             <Footer/>
 

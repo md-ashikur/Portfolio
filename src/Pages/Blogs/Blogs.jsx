@@ -2,7 +2,7 @@ import blog1 from "../../assets/images/blog1.jpg";
 import "./Blogs.css";
 const Blogs = () => {
   return (
-    <div className="my-20 p-20 bg-[#0F051D]">
+    <div className="my-20 lg:p-20 p-5 bg-[#0F051D]">
       <div className="text-center ">
         <h2 className="text-5xl font-bold font-[sora] my-3 p-2 gradient-text">
           Recent Blogs
@@ -10,9 +10,9 @@ const Blogs = () => {
         <p>Explore the Latest Insights: Fresh Perspectives, Timely Content</p>
       </div>
 
-      <div className="grid grid-cols-3 gap-5 my-10">
+      <div className="grid lg:grid-cols-3 gap-5 my-10">
 
-        <div className="blog-content rounded-2xl overflow-hidden h-96 w-96 relative flex flex-col items-center ">
+        <div className="blog-content rounded-2xl overflow-hidden h-96 lg:w-96 w-full relative flex flex-col items-center ">
           <div className="m-5 blog-text p-3 bg-primary h-28 w-auto rounded-xl absolute bottom-0 z-10 text-base">
             <div className="flex gap-5 text-xs">
               <p>Oct 01, 2022</p>
@@ -24,7 +24,7 @@ const Blogs = () => {
         </div>
 
        
-        <div className="blog-content rounded-2xl overflow-hidden h-96 w-96 relative flex flex-col items-center ">
+        <div className="blog-content rounded-2xl overflow-hidden h-96 lg:w-96 w-full relative flex flex-col items-center ">
           <div className="m-5 blog-text p-3 bg-primary h-28 w-auto rounded-xl absolute bottom-0 z-10 text-base">
             <div className="flex gap-5 text-xs">
               <p>Oct 01, 2022</p>
@@ -36,7 +36,7 @@ const Blogs = () => {
         </div>
 
        
-        <div className="blog-content rounded-2xl overflow-hidden h-96 w-96 relative flex flex-col items-center ">
+        <div className="blog-content rounded-2xl overflow-hidden h-96 lg:w-96 w-full relative flex flex-col items-center ">
           <div className="m-5 blog-text p-3 bg-primary h-28 w-auto rounded-xl absolute bottom-0 z-10 text-base">
             <div className="flex gap-5 text-xs">
               <p>Oct 01, 2022</p>

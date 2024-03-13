@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <div className=" p-20">
+    <div className=" lg:p-20 p-5">
       <div className="text-center ">
         <h2 className="text-5xl font-bold font-[sora] my-5 gradient-text">My Quality Services</h2>
         <p>
@@ -13,7 +13,7 @@ const Services = () => {
         <div className="border-b border-t border-primary hover:border-0 hover:bg-gradient-to-r from-primary  h-28 grid grid-cols-3 content-center gap-5 p-5">
           <div className="flex items-center gap-5 font-bold font-[sora] col-span-2">
           <p className="text-2xl text-primary">01</p>
-          <p className="text-4xl">Web Design & Development</p>
+          <p className="text-2xl lg:text-4xl">Web Design & Development</p>
           </div>
           
         </div>
@@ -21,7 +21,7 @@ const Services = () => {
         <div className="border-b border-primary hover:border-0 hover:bg-gradient-to-r from-primary  h-28 grid grid-cols-3 content-center gap-5 p-5">
           <div className="flex items-center gap-5 font-bold font-[sora] col-span-2">
           <p className="text-2xl text-primary ">02</p>
-          <p className="text-4xl">Graphics Design</p>
+          <p className="text-2xl lg:text-4xl">Graphics Design</p>
           </div>
           {/* ------------ */}
           
