@@ -1,7 +1,6 @@
 import "./Home.css";
 import { FaGithub } from "react-icons/fa";
 import ashik from "../../assets/images/ashik.png";
-import dil from "../../assets/images/dilruba.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
 import {  FaFacebookF } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
@@ -65,7 +64,7 @@ const Home = () => {
         <div className="flex items-center justify-center lg:justify-end lg:h-screen lg:mr-20">
           <div className="hover:border-2 hover:border-primary w-72 lg:h-96 lg:w-96 rounded-3xl overflow-hidden rotate-12 hover:rotate-0 transition duration-300 ease-in-out">
             <img
-              src={dil}
+              src={ashik}
               alt=""
               className="w-full h-auto grayscale hover:grayscale-0 hover:scale-110 transition duration-300 ease-in-out"
             />
