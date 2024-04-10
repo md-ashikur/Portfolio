@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div className=" ">
       {/* section- 1 start-=-=-=-=-=-=-=-=-=-=-=-=-= */}
-      <section className="grid lg:grid-cols-2 px-5 lg:px-20">
+      <section className="bgcolor grid lg:grid-cols-2 px-5 lg:px-20">
         <div className="flex flex-col lg:justify-center lg:h-screen uppercase ">
           <h2 className="lg:text-4xl text-2xl font-bold ">
             I am <span className="text-primary">Md. Ashikur Rahman</span>

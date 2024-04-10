@@ -34,3 +34,15 @@
     display: block;
     opacity: 1;
 }
+
+.skill p{
+    border: 1px solid #f9f6ff72;
+    margin-top: 10px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.skill:hover p{
+    border: 1px solid #ffffff;
+}
