@@ -1,4 +1,4 @@
-import blog1 from "../../assets/images/blog1.jpg";
+import blog1 from "../../images/blog1.jpg";
 import "./Blogs.css";
 const Blogs = () => {
   return (

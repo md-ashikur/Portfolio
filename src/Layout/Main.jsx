@@ -1,10 +1,13 @@
 import { Outlet } from "react-router-dom";
-import Footer from "../Pages/Shared/Footer";
+
 import '../index.css';
+import Navbar from "../component/navbar/Navbar";
+import Footer from "../component/Footer";
 
 const Main = () => {
     return (
-        <div className="bgcolor ">
+        <div >
+            <Navbar/>
             <Outlet/>
             <Footer/>
 

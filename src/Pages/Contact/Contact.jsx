@@ -1,6 +1,6 @@
-import address from "../../assets/images/map-pin-dynamic-gradient.png";
-import phone from "../../assets/images/phone.png";
-import mail from "../../assets/images/mail.png";
+import address from "../../images/map-pin-dynamic-gradient.png";
+import phone from "../../images/phone.png";
+import mail from "../../images/mail.png";
 import { useForm } from "react-hook-form";
 import "./Contact.css";
 const Contact = () => {

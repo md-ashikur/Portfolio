@@ -1,4 +1,3 @@
-import Home from './Pages/Home/Home';
 import './index.css';
 
 function App() {
@@ -6,7 +5,7 @@ function App() {
 
   return (
     <>
-     <Home/>
+   
     </>
   )
 }

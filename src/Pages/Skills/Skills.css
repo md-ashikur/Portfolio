@@ -1,5 +1,5 @@
 .s-logo{
-  font-family: 'sora';
+
     width: 9rem;
     height: 9rem;
     margin: 15px;
@@ -17,13 +17,13 @@
     transform: scale(1.2);
     transition: 0.4s ease-in-out;
     background-color: #0e061e;
-    border: 2px solid #570BFB;
+    border: 2px solid #76F5BC;
 }
 .s-logo:hover img{
     transform: scale(0.8);
     transition: 0.4s ease-in-out;
     transition-delay: 0.3s;
-    filter: drop-shadow(0 2px 4px #570BFB) drop-shadow(0 5px 2px #570BFB);
+    filter: drop-shadow(0 2px 4px #76F5BC) drop-shadow(0 5px 2px #76F5BC);
     
 }
 .s-logo p{

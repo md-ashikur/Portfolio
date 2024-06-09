@@ -1,22 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     colors: {
-      primary: '#570BFB',
-      secondary: '#E60BEF',
+      primary: "#76F5BC",
+      secondary: "#DE63A0",
       
-      base: '#FFFFFF'
+      third: {
+        DEFAULT: "#3D3D45",
+        100: "#BDBDBE",
+        200: "#18274B",
+      },
+      base: "#FFFFFF",
     },
     fontFamily: {
-      sans: ['Helvetica', 'sans-serif'],
+      sans: ["Helvetica", "sans-serif"],
     },
-    extend: {
-      
-    },
+    extend: {},
   },
-  plugins: [],
-}
-
+  plugins: [require("flowbite/plugin")],
+};

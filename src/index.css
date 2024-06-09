@@ -2,37 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.bgcolor {
-  background: #0f051d;
-  background-image: radial-gradient(
-      at 14.8% 28.6%,
-      #0f0634 0px,
-      transparent 50%
-    ),
-    radial-gradient(at 85.5% 81.3%, #1a0949 0px, transparent 50%),
-    radial-gradient(at 100.5% 11.2%, #2f1a45 0px, transparent 50%),
-    radial-gradient(at 30% 61.7%, #0f051d 0px, transparent 50%),
-    radial-gradient(at 70% 5%, #0f051d 0px, transparent 50%),
-    radial-gradient(at 39.2% 15.5%, #2f1a45 0px, transparent 50%),
-    radial-gradient(at 51.3% 43.1%, hsl(265, 71%, 7%) 0px, transparent 50%);
-    
+body{
+  background-color:hsla(234,55%,3%,1);
+  color: #ffff;
+  font-family: "Inter", sans-serif;
 }
 .gradient-text{
-    background: linear-gradient(to right, #570BFB, 70%, #E60BEF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, #FF9C8D, #DE63A0, #DE63A0,#570BFB, #570BFB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: white;
-}
 button:hover {
   transform: scale(1.1);
   transition-duration: 300ms;

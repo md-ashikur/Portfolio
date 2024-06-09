@@ -1,24 +1,24 @@
 import Marquee from "react-fast-marquee";
 import "./Skills.css";
 
-import html from "../../assets/images/html (1).png";
-import css from "../../assets/images/css.png";
-import js from "../../assets/images/javascript.png";
-import react from "../../assets/images/react.png";
-import git from "../../assets/images/git.png";
-import mongodb from "../../assets/images/mongo-db.png";
-import mysql from "../../assets/images/mysql.png";
-import tailwind from "../../assets/images/tailwind.png";
-import bootstrap from "../../assets/images/bootstrap-framework-logo.png";
-import figma from "../../assets/images/figma.png";
-import illustrator from "../../assets/images/adobe-illustrator.png";
-import node from "../../assets/images/nodejs.png";
-import photoshop from "../../assets/images/adobe-photoshop.png";
+import html from "../../images/html (1).png";
+import css from "../../images/css.png";
+import js from "../../images/javascript.png";
+import react from "../../images/react.png";
+import git from "../../images/git.png";
+import mongodb from "../../images/mongo-db.png";
+import mysql from "../../images/mysql.png";
+import tailwind from "../../images/tailwind.png";
+import bootstrap from "../../images/bootstrap-framework-logo.png";
+import figma from "../../images/figma.png";
+import illustrator from "../../images/adobe-illustrator.png";
+import node from "../../images/nodejs.png";
+import photoshop from "../../images/adobe-photoshop.png";
 const Skills = () => {
   return (
-    <div className="py-20 bg-[#0F051D]">
+    <div className="py-20">
       <div className="text-center ">
-        <h2 className="text-5xl font-bold font-[sora] my-5 gradient-text">
+        <h2 className="text-5xl font-bold my-5 gradient-text">
           My Skills
         </h2>
       </div>
