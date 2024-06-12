@@ -4,6 +4,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
+import resume from "../../assets/AshikResume.pdf";
+
 
 const HomeHeader = () => {
   return (
@@ -20,9 +22,14 @@ const HomeHeader = () => {
             </h1>
 
             <div className="my-5 flex lg:flex-row flex-col lg:items-center items-start">
-              <button className="text-base lg:mr-5 border border-primary rounded-full hover:bg-primary px-5 py-2">
-                Download Resume
-              </button>
+              <a
+                href={resume}
+                download='ashik_resume'
+              >
+                <button className="text-base hover:text-black lg:mr-5 border border-primary rounded-full hover:bg-primary px-5 py-2">
+                  Download Resume
+                </button>
+              </a>
               <div className="flex my-5 lg:my-0 justify-center">
                 <a href="https://github.com/md-ashikur">
                   <button className="socialBtn">
@@ -56,7 +63,7 @@ const HomeHeader = () => {
           </div>
 
           <div className="flex items-center justify-center lg:justify-end lg:h-screen overflow-hidden lg:pr-20">
-            <div className=" w-72 lg:h-[auto] lg:w-[28vw] relative -bottom-10">
+            <div className=" w-72 lg:h-[auto] lg:w-[30vw] relative">
               <img
                 src={ashik}
                 alt=""

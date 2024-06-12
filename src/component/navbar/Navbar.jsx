@@ -49,12 +49,12 @@ const Navbar = () => {
             >
              <p> Home</p>
             </NavLink>
-            <NavLink
-              to="/about"
+            <a
+             href="#about"
               className="block mt-4 md:inline-block md:mt-0   mr-4"
             >
              <p> About</p>
-            </NavLink>
+            </a>
           
             <NavLink
               to="/portfolio"
@@ -76,7 +76,7 @@ const Navbar = () => {
             </NavLink>
           </div>
 
-         
+          <div><p>mdashik.contact@gmail.com</p></div>
         </div>
 
         <div className="md:hidden">

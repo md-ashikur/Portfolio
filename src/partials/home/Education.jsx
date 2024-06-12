@@ -9,7 +9,7 @@ const Education = () => {
       <div className="flex lg:flex-row flex-col gap-5 items-center justify-center border border-third rounded-2xl p-5 lg:max-w-[70vw]">
         <img src={pub} alt="" className="w-28 h-28 " />
         <div className="col-span-3 ">
-          <h2 className="text-2xl font-bold ">Pundra University of Science and Technology</h2>
+          <h2 className="text-2xl font-bold ">Pundra University of Science and Technology, Bogura</h2>
           <p>B.Sc. in Computer Science and Engineering</p>
           <p className="text-sm">2022 - 2025(expected)</p>
 

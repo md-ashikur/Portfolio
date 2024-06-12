@@ -10,7 +10,7 @@ const Featured = () => {
       </h1>
       <div className="grid lg:grid-cols-3 gap-5 relative z-10">
 
-        <div className="f-card border border-third shadow-md hover:shadow-primary backdrop-brightness-125 backdrop-blur-[2px]  rounded-2xl overflow-hidden ease-out duration-300">
+        <div className="f-card border border-third hover:border-primary shadow-md hover:shadow-primary backdrop-brightness-125 backdrop-blur-[2px]  rounded-2xl overflow-hidden ease-out duration-300">
           <div>
             <img src={f1} alt="" />
           </div>
@@ -27,7 +27,7 @@ const Featured = () => {
         </div>
 
 
-        <div className="f-card border border-third shadow-md hover:shadow-primary backdrop-brightness-125 backdrop-blur-[2px]  rounded-2xl overflow-hidden ease-out duration-300">
+        <div className="f-card border border-third hover:border-primary shadow-md hover:shadow-primary backdrop-brightness-125 backdrop-blur-[2px]  rounded-2xl overflow-hidden ease-out duration-300">
           <div>
             <img src={f1} alt="" />
           </div>
@@ -44,7 +44,7 @@ const Featured = () => {
         </div>
 
 
-        <div className="f-card border border-third hover:shadow-md hover:shadow-primary backdrop-brightness-125 backdrop-blur-[2px]  rounded-2xl overflow-hidden ease-out duration-300">
+        <div className="f-card border border-third hover:border-primary hover:shadow-md hover:shadow-primary backdrop-brightness-125 backdrop-blur-[2px]  rounded-2xl overflow-hidden ease-out duration-300">
           <div>
             <img src={f1} alt="" />
           </div>

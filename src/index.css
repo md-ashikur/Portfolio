@@ -8,7 +8,7 @@ body{
   font-family: "Inter", sans-serif;
 }
 .back-color{
-  background: linear-gradient(to right, #FF9C8D, #DE63A0, #DE63A0,#570BFB, #570BFB);
+  background: linear-gradient(to right, #FF9C8D ,  #570BFB);
 }
 .gradient-text{
   background: linear-gradient(to right, #FF9C8D, #DE63A0, #DE63A0,#570BFB, #570BFB);
