@@ -7,13 +7,47 @@ body{
   color: #ffff;
   font-family: "Inter", sans-serif;
 }
+.back-color{
+  background: linear-gradient(to right, #FF9C8D, #DE63A0, #DE63A0,#570BFB, #570BFB);
+}
 .gradient-text{
   background: linear-gradient(to right, #FF9C8D, #DE63A0, #DE63A0,#570BFB, #570BFB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+#content {
+  box-shadow: 0px 50px 50px 80px hsla(234,55%,3%,1) inset;
+background-color: transparent;
+background-image: linear-gradient(
+    0deg,
+    transparent 25%,
+    rgba(255, 255, 255, 0.05) 5%,
+    rgba(255, 255, 255, 0.05) 6%,
+    transparent 26%,
+    transparent 76%,
+    rgba(255, 255, 255, 0.05) 5%,
+    rgba(255, 255, 255, 0.05) 6%,
+    transparent 77%,
+    transparent
+  ),
+  linear-gradient(
+    90deg,
+    transparent 26%,
+    rgba(255, 255, 255, 0.05) 5%,
+    rgba(255, 255, 255, 0.05) 6%,
+    transparent 27%,
+    transparent 76%,
+    rgba(255, 255, 255, 0.05) 5%,
+    rgba(255, 255, 255, 0.05) 6%,
+    transparent 77%,
+    transparent
+  );
+height: 100%;
+background-size: 300px 300px;
+z-index: -2;
 
+}
 button:hover {
   transform: scale(1.1);
   transition-duration: 300ms;
