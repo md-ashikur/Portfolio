@@ -7,6 +7,7 @@ import Contact from "../Contact/Contact";
 import HomeHeader from "../../partials/home/HomeHeader";
 import AboutBody from "../../partials/about/AboutBody";
 import Featured from "../../partials/home/featured/Featured";
+import Education from "../../partials/home/Education";
 const Home = () => {
   return (
     <div >
@@ -14,6 +15,7 @@ const Home = () => {
      <AboutBody/>
      {/* <Services /> */}
      <Featured/>
+     <Education/>
       <Skills />
  
       <Works />

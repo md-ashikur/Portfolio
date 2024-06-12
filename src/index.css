@@ -48,6 +48,16 @@ background-size: 300px 300px;
 z-index: -2;
 
 }
+
+.right-bg-gradiant{
+  background: radial-gradient(#de63a188 1%,  rgba(3, 4, 12, 0) 60%);
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  bottom: -200vh;
+  right: -20vw;
+  z-index: 1;
+}
 button:hover {
   transform: scale(1.1);
   transition-duration: 300ms;

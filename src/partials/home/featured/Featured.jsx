@@ -1,14 +1,16 @@
 import f1 from "../../../images/iut certificate.jpeg";
+import "./Featured.css";
+
 
 const Featured = () => {
   return (
-    <div className="lg:px-20 px-5 py-20" id="content">
+    <div className="lg:px-20 px-5 py-20 " id="content">
       <h1 className="text-4xl font-bold text-primary text-center mb-10">
         Featured
       </h1>
-      <div className="grid grid-cols-3 gap-5 ">
+      <div className="grid lg:grid-cols-3 gap-5 relative z-10">
 
-        <div className="border border-third shadow-md hover:shadow-primary backdrop-brightness-125 backdrop-blur-[2px]  rounded-2xl overflow-hidden ease-out duration-300">
+        <div className="f-card border border-third shadow-md hover:shadow-primary backdrop-brightness-125 backdrop-blur-[2px]  rounded-2xl overflow-hidden ease-out duration-300">
           <div>
             <img src={f1} alt="" />
           </div>
@@ -23,7 +25,9 @@ const Featured = () => {
             </p>
           </div>
         </div>
-        <div className="border border-third shadow-md hover:shadow-primary backdrop-brightness-125 backdrop-blur-[2px]  rounded-2xl overflow-hidden ease-out duration-300">
+
+
+        <div className="f-card border border-third shadow-md hover:shadow-primary backdrop-brightness-125 backdrop-blur-[2px]  rounded-2xl overflow-hidden ease-out duration-300">
           <div>
             <img src={f1} alt="" />
           </div>
@@ -38,7 +42,9 @@ const Featured = () => {
             </p>
           </div>
         </div>
-        <div className="border border-third shadow-md hover:shadow-primary backdrop-brightness-125 backdrop-blur-[2px]  rounded-2xl overflow-hidden ease-out duration-300">
+
+
+        <div className="f-card border border-third hover:shadow-md hover:shadow-primary backdrop-brightness-125 backdrop-blur-[2px]  rounded-2xl overflow-hidden ease-out duration-300">
           <div>
             <img src={f1} alt="" />
           </div>
@@ -55,6 +61,7 @@ const Featured = () => {
         </div>
 
       </div>
+     
     </div>
   );
 };
