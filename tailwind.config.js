@@ -8,7 +8,7 @@ export default {
       
       third: {
         DEFAULT: "#3D3D45",
-        100: "#BDBDBE",
+        100: "#3D3D45",
         200: "#404148",
         500: "#03040cd1"
       },

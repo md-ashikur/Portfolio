@@ -16,10 +16,10 @@ const Contact = () => {
   }
 
   return (
-    <div className="grid lg:grid-cols-2 lg:px-20 px-5 font-[sora] content-center">
+    <div className="grid lg:grid-cols-2 lg:px-20 px-5 content-center">
       {/* contact form------- */}
    
-      <div className="bg-[#0F051D] h-auto w-full border border-primary lg:p-10 p-5 mt-10 rounded-xl">
+      <div  className=" h-auto w-full border border-primary lg:p-10 p-5 mt-10 rounded-xl">
         <h2 className="gradient-text  font-bold py-2 lg:text-5xl text-2xl">
           Let’s work together!
         </h2>
@@ -83,13 +83,13 @@ const Contact = () => {
 
         
 
-          <input type="submit" value="Send Message" className="text-base my-3 hover:scale-90 transition duration-300 ease-in-out bg-primary px-5 py-2 rounded-lg" />
+          <input type="submit" value="Send Message" className="text-base my-3 hover:scale-90 transition duration-300 ease-in-out back-color px-5 py-2 rounded-lg" />
         </form>
       </div>
     
 
       {/* contact info--------- */}
-      <div className="flex items-center">
+      <div  className="flex items-center">
       <div className="text-white lg:p-10 p-5">
         <div className="flex items-center gap-5 mb-5">
           <img src={phone} alt="" className="lg:h-20 h-16 lg:w-20 h-16" />
