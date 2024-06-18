@@ -59,7 +59,7 @@ z-index: -2;
   z-index: 1;
 }
 button:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

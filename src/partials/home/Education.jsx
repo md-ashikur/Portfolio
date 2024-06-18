@@ -3,7 +3,7 @@ import pub from "../../images/pub.png";
 const Education = () => {
   return (
     <div className="lg:px-20 px-5 py-20 flex flex-col items-center">
-      <h1 className="text-4xl font-bold text-primary  mb-10">
+      <h1 className="text-4xl font-bold gradient-text  mb-10">
         Education
       </h1>
       <div className="flex lg:flex-row flex-col gap-5 items-center justify-center border border-third rounded-2xl p-5 lg:max-w-[70vw]">

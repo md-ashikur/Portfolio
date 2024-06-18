@@ -16,7 +16,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="grid lg:grid-cols-2 lg:px-20 px-5 content-center">
+    <div className="grid lg:grid-cols-2 py-20 lg:px-20 px-5 content-center">
       {/* contact form------- */}
    
       <div  className=" h-auto w-full border border-primary lg:p-10 p-5 mt-10 rounded-xl">

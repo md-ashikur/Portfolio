@@ -1,147 +1,114 @@
-import Marquee from "react-fast-marquee";
 import "./Skills.css";
+import html from "../../images/logos/html-5.svg";
+import css from "../../images/logos/css-3.svg";
+import js from "../../images/logos/javascript.svg";
+import react from "../../images/logos/react.svg";
+import mongodb from "../../images/logos/mongodb-icon.svg";
+import git from "../../images/logos/git-icon.svg";
+import github from "../../images/logos/github-icon.svg";
+import mysql from "../../images/logos/mysql-icon.svg";
+import tailwind from "../../images/logos/tailwindcss-icon.svg";
+import bootstrap from "../../images/logos/bootstrap.svg";
+import figma from "../../images/logos/figma.svg";
+import illustrator from "../../images/logos/adobe-illustrator.svg";
+import node from "../../images/logos/nodejs-icon.svg";
+import vite from "../../images/logos/vitejs.svg";
+import vercel from "../../images/logos/vercel-icon.svg";
+import firebase from "../../images/logos/firebase.svg";
+import express from "../../images/logos/express.svg";
+import cpp from "../../images/logos/c-plusplus.svg";
+import c from "../../images/logos/C_Logo.png";
+import vscode from "../../images/logos/visual-studio-code.svg";
 
-import html from "../../images/html (1).png";
-import css from "../../images/css.png";
-import js from "../../images/javascript.png";
-import react from "../../images/react.png";
-import git from "../../images/git.png";
-import mongodb from "../../images/mongo-db.png";
-import mysql from "../../images/mysql.png";
-import tailwind from "../../images/tailwind.png";
-import bootstrap from "../../images/bootstrap-framework-logo.png";
-import figma from "../../images/figma.png";
-import illustrator from "../../images/adobe-illustrator.png";
-import node from "../../images/nodejs.png";
-import photoshop from "../../images/adobe-photoshop.png";
 const Skills = () => {
   return (
-    <div className="py-20">
+    <div className="py-20 lg:px-20">
       <div className="text-center ">
-        <h2 className="text-5xl font-bold my-5 gradient-text">
-          My Skills
-        </h2>
+        <h2 className="text-5xl font-bold py-5 gradient-text">My Skills</h2>
       </div>
 
-      <Marquee autoFill pauseOnHover speed="80" className="my-10">
-        <div className="s-logo ">
-          <img src={html} alt="" />
-          <p>HTML</p>
+      <div className="flex flex-col items-center justify-center">
+        <div className="my-5 flex flex-wrap justify-center gap-5 max-w-[700px]">
+          <div className="s-logo ">
+            <img src={html} alt="" />
+          </div>
+
+          <div className="s-logo bg-base">
+            <img src={css} alt="" />
+          </div>
+
+          <div className="s-logo">
+            <img src={tailwind} alt="" />
+          </div>
+
+          <div className="s-logo ">
+            <img src={bootstrap} alt="" />
+          </div>
+
+          <div className="s-logo bg-base">
+            <img src={js} alt="" />
+          </div>
+
+          <div className="s-logo">
+            <img src={react} alt="" />
+          </div>
+
+          <div className="s-logo">
+            <img src={node} alt="" />
+          </div>
+
+          <div className="s-logo bg-base">
+            <img src={express} alt="" />
+          </div>
+
+          <div className="s-logo ">
+            <img src={mongodb} alt="" />
+          </div>
+
+          <div className="s-logo">
+            <img src={mysql} alt="" />
+          </div>
+
+          <div className="s-logo bg-base">
+            <img src={github} alt="" />
+          </div>
+
+          <div className="s-logo">
+            <img src={git} alt="" />
+          </div>
+
+          <div className="s-logo">
+            <img src={firebase} alt="" />
+          </div>
+
+          <div className="s-logo bg-base">
+            <img src={vite} alt="" />
+          </div>
+
+          <div className="s-logo bg-base">
+            <img src={vercel} alt="" />
+          </div>
+
+          <div className="s-logo bg-base">
+            <img src={figma} alt="" />
+          </div>
+
+          <div className="s-logo">
+            <img src={illustrator} alt="" />
+          </div>
         </div>
 
-        <div className="s-logo">
-          <img src={css} alt="" />
-          <p>CSS</p>
+        <div className="flex flex-wrap justify-center gap-5 max-w-[700px]">
+          <div className="s-logo">
+            <img src={cpp} alt="" />
+          </div>
+          <div className="s-logo bg-base lg:bg-transparent">
+            <img src={c} alt="" className=" !h-auto"/>
+          </div>
+          <div className="s-logo bg-base lg:bg-transparent">
+            <img src={vscode} alt="" />
+          </div>
         </div>
-
-        <div className="s-logo">
-          <img src={tailwind} alt="" />
-            <p>Tailwind CSS</p>
-        </div>
-
-        <div className="s-logo ">
-          <img src={bootstrap} alt="" />
-            <p>Bootstrap</p>
-        </div>
-
-
-        <div className="s-logo">
-          <img src={js} alt="" />
-          <p>JavaScript</p>
-        </div>
-
-
-        <div className="s-logo">
-          <img src={react} alt="" />
-          <p>React.js</p>
-        </div>
-
-
-        <div className="s-logo">
-          <img src={node} alt="" />
-          <p>Node.js</p>
-        </div>
-
-
-        <div className="s-logo ">
-          <img src={mongodb} alt="" />
-            <p>MongoDB</p>
-        </div>
-
-
-        <div className="s-logo">
-          <img src={mysql} alt="" />
-            <p>MySQL</p>
-        </div>
-
-
-        <div className="s-logo">
-          <img src={git} alt="" />
-            <p>Git</p>
-        </div>
-
-
-        <div className="s-logo">
-          <img src={figma} alt="" />
-            <p>Figma</p>
-        </div>
-
-
-        <div className="s-logo">
-          <img src={illustrator} alt="" />
-            <p>Illustrator</p>
-        </div>
-
-
-        <div className="s-logo">
-          <img src={photoshop} alt="" />
-            <p>Photoshop</p>
-        </div>
-
-      </Marquee>
-
-
-      <div className="grid grid-cols-2 lg:grid-cols-5 gap-5 px-5 lg:px-20">
-        <div className="skill">
-         <p>HTML5</p>
-         <p>CSS3</p>
-         <p>Tailwind CSS</p>
-         <p>Bootstrap 5</p>
-
-        </div>
-
-
-        <div className="skill">
-          <p>JavaScript</p>
-          <p>React.js</p>
-          <p>Node.js</p>
-          <p>Next.js</p>
-        </div>
-
-
-        <div className="skill">
-          <p>Express.js</p>
-          <p>MongoDB</p>
-          <p>MySQL</p>
-          <p>Git</p>
-        </div>
-
-
-        <div className="skill">
-          <p>Vercel</p>
-          <p>Firebase</p>
-          <p>Netlify</p>
-          <p>GitHub</p>
-        </div>
-
-        <div className="skill">
-          <p>Figma</p>
-          <p>Adobe Illustrator CC</p>
-          <p>Adobe Photoshop CC</p>
-          <p>Canva</p>
-          
-        </div>
-
       </div>
     </div>
   );

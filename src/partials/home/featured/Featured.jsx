@@ -5,7 +5,7 @@ import "./Featured.css";
 const Featured = () => {
   return (
     <div className="lg:px-20 px-5 py-20 " id="content">
-      <h1 className="text-4xl font-bold text-primary text-center mb-10">
+      <h1 className="text-4xl font-bold gradient-text text-center mb-10">
         Featured
       </h1>
       <div className="grid lg:grid-cols-3 gap-5 relative z-10">

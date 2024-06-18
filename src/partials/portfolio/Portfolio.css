@@ -1,0 +1,24 @@
+
+.portfolio-card-img:hover img{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+
+}
+
+
+.portfolioBtn {
+    border-radius:15px;
+    border: 1px solid #3D3D45;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #76F5BC;
+  }
+  .portfolioBtn:hover {
+    background-color: #76F5BC;
+    color: white;
+  }
+  
+
+

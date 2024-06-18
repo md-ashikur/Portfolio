@@ -1,47 +1,17 @@
-.s-logo{
-
-    width: 9rem;
-    height: 9rem;
-    margin: 15px;
-    padding: 16px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-   
+.s-logo {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #3d3d45;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s-logo img {
+  width: 50px;
+  height: 50px;
 }
 
 .s-logo:hover{
-    transform: scale(1.2);
-    transition: 0.4s ease-in-out;
-   
-}
-.s-logo:hover img{
-    transform: scale(0.8);
-    transition: 0.4s ease-in-out;
-    transition-delay: 0.3s;
-    filter: drop-shadow(0 2px 4px #76F5BC) drop-shadow(0 5px 2px #76F5BC);
-    
-}
-.s-logo p{
-   opacity: 0;
-    
-}
-.s-logo:hover p{
-    display: block;
-    opacity: 1;
-}
-
-.skill p{
-    border: 1px solid #f9f6ff72;
-    margin-top: 10px;
-    padding: 15px 10px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.skill:hover p{
-    border: 1px solid #ffffff;
+    border: 1px solid #76F5BC;
 }

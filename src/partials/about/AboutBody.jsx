@@ -1,7 +1,7 @@
 const AboutBody = () => {
   return (
     <div className="lg:px-20 px-5 py-20" id="about">
-      <h2 className="text-4xl text-primary font-bold">About Me</h2>
+      <h2 className="text-4xl gradient-text font-bold">About Me</h2>
       <div className="p-6 font-light text-lg text-justify">
       <p >
         I&apos;m Humble, curious, growth-minded young web developer, having expertise in web
